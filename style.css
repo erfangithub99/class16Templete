@@ -1,0 +1,71 @@
+/* Defult css  */
+.fixed-width{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #0b0b3f;
+    /* padding: 5px 0px; */
+}
+.header-logo img{
+    width: 88px;
+    margin-top: 8px;
+}
+.header-menu ul{
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 19px 15px;
+    line-height: 34px;
+    font-family: sans-serif;
+}
+/* Bannar section  */
+.bannar {
+    background-image: url(./img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 243px 0px; */
+    height: 641px;
+    background-position: bottom center;
+}
+.bannar-text h2 {
+    margin-top: 245px;
+    margin-bottom: 28px;
+}
+
+/* Team section  */
+.team-section{
+    background-color: #bdc4f4;
+}
+/* About Section  */
+.about-section{
+    background-color: #c6d8ed;
+}
+.about-section .para{
+    text-align: justify;
+}
+.about-section h1{
+    font-family: sans-serif;
+}
+.about-section .same-para {
+    font-size: 13px;
+}
+.about-section .diff-p {
+    font-size: 19px;
+}
+p.para2 {
+    width: 195px;
+    margin: 0 auto;
+}
+/* contact  */
+.contact h1{
+    font-family: sans-serif;
+}
